@@ -1,12 +1,41 @@
-## Welcome to GitHub Pages
+---
+layout: home
+---
+
+<script type="text/javascript"
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+## Chroma 2022
 
 You can use the [editor on GitHub](https://github.com/sudo-rushil/chroma2022/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+Yeet
+
+<!-- $$F_p(\Omega S^{n+1})$$ -->
+<!-- 
+<b>Tentative schedule:</b>
+
+| Date | Speaker | Topic |
+| --------------- | --------------- | --------------- |
+| Feb 17 | Mike Hopkins | Introduction and overview of exponent theorems |
+| Feb 24 | Ishan Levy; <a href = "/files/thursday-spring-2022/ishan-thursday-typed.pdf">typed notes</a> and <a href = "/files/thursday-spring-2022/ishan-thursday-handwritten.pdf">handwritten notes</a> | Tools of unstable homotopy theory, James' 2-primary exponent theorem (Chapters 1-10 of Cohen's course notes) |
+| March 3 | Paul Selick; <a href = "/files/thursday-spring-2022/selick-notes.pdf">typed notes</a> | Selick's theorem on $$S^3$$ + Gray's delooping of the fiber of $$S^{2n-1} \to \Omega^2 S^{2n+1}$$ + ... |
+| March 10 | Robert Burklund; <a href="/files/thursday-spring-2022/robert-cmn.pdf">handwritten notes</a> | Starting the proof of CMN: the fiber $$F^{2n+1}\{p^r\}$$ of the pinch map $$S^{2n}/p^r \to S^{2n+1}$$ |
+| March 17 | N/A | Harvard spring break |
+| March 24 | Andy Senger | Continuing the proof of CMN: product decomposition of $$\Omega F^{2n+1}\{p^r\}$$ and building the map $$\phi_n: \Omega^2 S^{2n+1} \to S^{2n-1}$$ |
+| March 31 | Paul Selick; <a href = "/files/thursday-spring-2022/selick-notes.pdf">typed notes</a> | Complements: Anick spaces and the fiber of the double suspension |
+| April 7 | Adela Zhang | EHP sequences, chromatic periodicity, and Weiss calculus following Gray and Arone |
+| April 14 | TBD | Higher chromatic exponents following Heuts and Wang |
+| April 21 | Aravind Asok/Mike Hopkins | Continuation/Motivic variants? |
+
+<b>Resources:</b> -->
+
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for memes
 
 ```markdown
 Syntax highlighted code block
@@ -25,12 +54,6 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sudo-rushil/chroma2022/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
