@@ -3,7 +3,10 @@ title: Chroma 2022
 description: |-
   Harvard-MIT Stable and Chromatic 
   Homotopy Theory Seminar Summer 2022
-email: rushil_mallarapu@college.harvard.edu
+
+author:
+  name: Chroma 2022
+  email: rushil_mallarapu@college.harvard.edu
 
 icon: /assets/img/favicon.ico
 
@@ -11,4 +14,6 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+
 
