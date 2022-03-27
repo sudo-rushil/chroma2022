@@ -43,7 +43,7 @@ Intros:
 * [A Concise Course in Algebraic Topology](https://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf) by May.
 * [Differential Forms in Algebraic Topology](
 https://www.maths.ed.ac.uk/~v1ranick/papers/botttu.pdf) by Bott and Tu.
-* [Algebraic Topologoy](https://www.maths.ed.ac.uk/~v1ranick/papers/diecktop.pdf) by tom Dieck.
+* [Algebraic Topology](https://www.maths.ed.ac.uk/~v1ranick/papers/diecktop.pdf) by tom Dieck.
 
 Category Theory and Simplicial Stuff:
 * [Category Theory in Context](https://math.jhu.edu/~eriehl/context.pdf) by Riehl.
