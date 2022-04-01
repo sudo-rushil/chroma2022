@@ -12,7 +12,7 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 
 <b>Overview:</b>
 
-Chroma is a joint Harvard-MIT summer seminar primarily focused at undergraduates interested in algebraic topology and homotopy theory. If you're an undergraduate or graduate student and are interested in these subjects, fill out the interest form in the top-right!
+Chroma is a joint Harvard-MIT summer seminar primarily focused at undergraduates interested in algebraic topology and homotopy theory. If you're an undergraduate or graduate student and are interested in these subjects, fill out the [interest form](interest.html) in the top-right!
 
 This summer, subject to the interests of the participants, we will try to define the stable homotopy category, understand its desirable properties for computational and abstract homotopy theory, and present some results from chromatic homotopy theory. Roughly, we will follow Ravenal's [Nilpotence and Periodicity in Stable Homotopy Theory](https://people.math.rochester.edu/faculty/doug/mybooks/nilpb2020.pdf), but will spend some time reviewing preliminaries to this book. The goal is to develop an intuituion and appreciation for the machinery of stable homotopy theory without getting bogged down by technicalities and computation.
 
@@ -20,17 +20,41 @@ Ideally, familiarity with algebraic topology at the level of Hatcher chapters 1-
 
 Tentatively, we will meet once a week on Zoom from early June to late August. Each meeting will consist of a talk given by one of the participants, followed by a question/discussion session. As we're in the early stages of organizing, the dates and times will be shifted to be accomodating of everyone!
 
-<b>What is "Stable Homotopy Theory"?</b>
+<b>What is "Stable Homotopy Theory"?</b> (10 minute version)
 
-\[In Progress\]
+The main objects of study in classical algebraic topology are (sufficiently nice, e.g. CW) spaces. The general perspective is that while understanding a space (say, up to homeomorphism) is too hard in general, we _can_ attempt to look at spaces up to homotopy equivalence, which really means going from trying to understand the space $$\text{Maps}(X,Y)$$ to considering homotopy classes of maps, denoted by $$[X,Y]$$ (these are equivalent by the Yoneda lemma).
+
+But even here we are stuck, because in general $$[X,Y]$$ might just be a set. However, if $$X\simeq \Sigma X'$$ (assume everything is based), then we can identify $$[X,Y]$$ with $$\pi_1\text{Maps}(X',Y)$$, which is a group. If $$X$$ is a double suspension, then this becomes an _abelian_ group. Thus, we might want to look at the tower
+
+$$
+[X,Y] \xrightarrow{\Sigma} [\Sigma X, \Sigma Y] \xrightarrow{\Sigma} [\Sigma^2 X, \Sigma^2 Y] \xrightarrow{\Sigma} \cdots
+$$
+
+as a kind of approximation of $$[X,Y]$$, which is _a priori_ just a set, by things which _do_ have tangible algebraic structures to latch onto. From this point of view, what we _really_ should be studying, as in the thing which we have the best chance of getting a handle on, is the direct limit of this tower, which we call the _stable homotopy classes of maps_ $$[X,Y]_s$$, because these are precisely the maps $$f\colon X\to Y$$ which are invariant under suspension (this is what it means to be "stable"). Our takeaway should be this ethos to what we call "stable homotopy theory":
+
+<p align="center">
+	The simplest things are stable things
+</p>
+
+Let's take this analogy one step further: why is topology hard and algebra easy? (If this wasn't at least somewhat, then we'd hardly want to study topological spaces via algebraic invariants!) In some sense, it's because $$\mathbf{Ab}$$, the category of abelian groups, is _really_ nice (e.g. it's abelian, closed symmetric monoidal, etc.), while $$\mathbf{Spaces}$$ (or even $$\text{ho}\mathbf{Spaces}$$) aren't, well, anything much in general. By our stated ethos, one way to think about the transition from classical homotopy theory to stable homotopy theory is to think of $$\mathbf{Spaces}$$ not being "nice" as a bug instead of a feature.
+
+To fix this, what we want is a new _category_ $$\mathbf{SHC}$$, called the "stable homotopy category," which is nicer in the sense of giving us more algebraic structure to work with. with morphisms between objects given precisely by these stable classes of maps. The objects are called _spectra_. What are the spectra? We want these to be "spaces which are suspension-invariant," and while there are many ways of actually constructing the category of spectra (the homotopy category of which is precisely $$\mathbf{SHC}$$), a straightforward one is that a spectrum $$E$$ is a sequence of spaces $$E_0, E_1, E_2, \ldots$$ and _structure maps_ $$\Sigma E_n \to E_{n+1}$$ which are equivalences.
+
+A good source of examples of spectra is _suspension spectra_, where we start with a space $$X$$, set $$E_n=\Sigma^n X$$, and make the structure maps the identity. Applying this to the 0-sphere, we get the sphere spectrum $$\mathbb{S}$$, the homotopy groups of which (in the stable category) are the stable homotopy groups of the spheres. Another good source of examples are _generalized cohomology theories_ — a result called Brown Representability says that given any spectra $$E$$, the axioms of a spectra are *exactly* what we need for the functor $$E^n(X) = [Y,E_n]$$ to be a generalized cohomology theory; i.e. a functor from $$\text{ho}\mathbf{Spaces}$$ to $$\textbf{Ab}$$ satisfying the Eilenberg-Steenrod axioms (if this reminds you of Eilenberg-Mac Lane spaces, you'll be delighted to know that the sequence $$K(A,0),K(A,1),K(A,2),\ldots $$ forms a spectrum called $$HA$$, which represents ordinary cohomology with $$A$$ coefficients).
+
+Historically, much of the formalism of stable homotopy and spectra arose when Frank Adams was working on the Hopf invariant one problem, but there are echos of this idea throughout classical homotopy theory, such as via the Freudenthal suspension theorem or the aforementioned connection between spectra and generalized cohomology theories. On the other hand, modern perspectives on spectra — which are often phrased in the language of $$\infty$$-categories — treat spectra as the final step in the effort to make working in $$\text{ho}\mathbf{Spaces}$$ more like doing algebra, and approach stable homotopy theory from the lens of "homotopy-theoretic algebra." Our goal for Chroma is to take a middle ground — we'll start by defining the stable category and understanding just what makes it such a nice place to do homotopy theory, and then apply this background to understanding some classical results, i.e. the nilpotence theorem.
+
+<b>What is "Chromatic Homotopy Theory"?</b>?
+
+\[In Progress — I'll add more!\]
 
 <b>Schedule:</b>
 
 \[In Progress\]
 <!-- 
 | Date | Speaker | Topic |
-| --------------- | --------------- | --------------- |
-| June 28 | Witold Hurewicz | Counting on $$\mathbb{S}$$ | -->
+| ---- | ------- | ----- |
+| Week 0 | TBD | Organizational Meeting | -->
 
 <b>Resources:</b>
 
@@ -64,6 +88,7 @@ Homological Algebra and Spectral Sequences:
 
 
 Spectra and Stable Homotopy Theory:
+* [Modern Foundations for Stable Homotopy Theory](https://www.math.uchicago.edu/~may/PAPERS/Newfirst.pdf) by Elmendorf, Kriz, Kandell, and May
 * [Cohomology Operations and Applications in Homotopy Theory](https://www.maths.ed.ac.uk/~v1ranick/papers/moshtang.pdf) by Mosher and Tangora.
 * [Stable Homotopy and Generalized Homology](https://people.math.rochester.edu/faculty/doug/otherpapers/Adams-SHGH.pdf) by Adams.
 * [Foundations of Stable Homotopy Theory](https://www.cambridge.org/core/books/foundations-of-stable-homotopy-theory/791C9C413A83AD7094E055E5E818D33B) by Barnes and Roitzheim.
