@@ -99,6 +99,7 @@ Spectra and Stable Homotopy Theory:
 Chromatic Homotopy Theory:
 * [Nilpotence and Periodicity in Stable Homotopy Theory](https://people.math.rochester.edu/faculty/doug/mybooks/nilpb2020.pdf) by Ravenal
 * [Math 252x Lecture Notes](https://people.math.harvard.edu/~lurie/252x.html) by Lurie.
+* [Math 252y Lecture Notes](https://people.math.harvard.edu/~piotr/252y_notes.pdf) by Pstragowski.
 * [Complex Cobordism and Stable Homotopy Groups of Spheres](https://people.math.rochester.edu/faculty/doug/mybooks/ravenel.pdf) by Ravenal.
 * [Complex Oriented Cohomology Theories and the Language of Stacks](https://people.math.rochester.edu/faculty/doug/otherpapers/coctalos.pdf) by Hopkins.
 
