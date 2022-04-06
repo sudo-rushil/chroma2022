@@ -47,7 +47,7 @@
 
 <p><b>Overview:</b></p>
 
-<p>Chroma is a joint Harvard-MIT summer seminar primarily focused at undergraduates interested in algebraic topology and homotopy theory. If you’re an undergraduate or graduate student and are interested in these subjects, fill out the <a href="interest.html">interest form</a> in the top-right!</p>
+<p>Chroma is a joint Harvard-MIT summer seminar primarily focused at undergraduates interested in algebraic topology and homotopy theory. If you’re an undergraduate or graduate student and are interested in these subjects, fill out the <b><a href="interest.html">interest form</a></b> in the top-right!</p>
 
 <p>This summer, subject to the interests of the participants, we will try to define the stable homotopy category, understand its desirable properties for computational and abstract homotopy theory, and present some results from chromatic homotopy theory. Roughly, we will follow Ravenal’s <a href="https://people.math.rochester.edu/faculty/doug/mybooks/nilpb2020.pdf">Nilpotence and Periodicity in Stable Homotopy Theory</a>, but will spend some time reviewing preliminaries to this book. The goal is to develop an intuituion and appreciation for the machinery of stable homotopy theory without getting bogged down by technicalities and computation.</p>
 
@@ -71,7 +71,7 @@
 
 <p>Let’s take this analogy one step further: why is topology hard and algebra easy? (If this wasn’t at least somewhat, then we’d hardly want to study topological spaces via algebraic invariants!) In some sense, it’s because \(\mathbf{Ab}\), the category of abelian groups, is <em>really</em> nice (e.g. it’s abelian, closed symmetric monoidal, etc.), while \(\mathbf{Spaces}\) (or even \(\text{ho}\mathbf{Spaces}\)) aren’t, well, anything much in general. By our stated ethos, one way to think about the transition from classical homotopy theory to stable homotopy theory is to think of \(\mathbf{Spaces}\) not being “nice” as a bug instead of a feature.</p>
 
-<p>To fix this, what we want is a new <em>category</em> \(\mathbf{SHC}\), called the “stable homotopy category,” which is nicer in the sense of giving us more algebraic structure to work with. with morphisms between objects given precisely by these stable classes of maps. The objects are called <em>spectra</em>. What are the spectra? We want these to be “spaces which are suspension-invariant,” and while there are many ways of actually constructing the category of spectra (the homotopy category of which is precisely \(\mathbf{SHC}\)), a straightforward one is that a spectrum \(E\) is a sequence of spaces \(E_0, E_1, E_2, \ldots\) and <em>structure maps</em> \(\Sigma E_n \to E_{n+1}\) which are equivalences.</p>
+<p>To fix this, what we want is a new <em>category</em>, \(\mathbf{SHC}\), called the “stable homotopy category,” which is nicer in the sense of giving us more algebraic structure to work with. In the stable category, the morphisms between objects given precisely by the stable classes of maps. The objects are called <em>spectra</em>. What are the spectra? We want these to be “spaces which are suspension-invariant,” and while there are many ways of actually constructing the category of spectra (the homotopy category of which is precisely \(\mathbf{SHC}\)), a straightforward one is that a spectrum \(E\) is a sequence of spaces \(E_0, E_1, E_2, \ldots\) and <em>structure maps</em> \(\Sigma E_n \to E_{n+1}\).</p>
 
 <p>A good source of examples of spectra is <em>suspension spectra</em>, where we start with a space \(X\), set \(E_n=\Sigma^n X\), and make the structure maps the identity. Applying this to the 0-sphere, we get the sphere spectrum \(\mathbb{S}\), the homotopy groups of which (in the stable category) are the stable homotopy groups of the spheres. Another good source of examples are <em>generalized cohomology theories</em> — a result called Brown Representability says that given any spectra \(E\), the axioms of a spectra are <em>exactly</em> what we need for the functor \(E^n(X) = [Y,E_n]\) to be a generalized cohomology theory; i.e. a functor from \(\text{ho}\mathbf{Spaces}\) to \(\textbf{Ab}\) satisfying the Eilenberg-Steenrod axioms (if this reminds you of Eilenberg-Mac Lane spaces, you’ll be delighted to know that the sequence \(K(A,0),K(A,1),K(A,2),\ldots\) forms a spectrum called \(HA\), which represents ordinary cohomology with \(A\) coefficients).</p>
 
@@ -83,26 +83,11 @@
 
 <p><b>Schedule:</b></p>
 
-<p>[In Progress]</p>
-
-<table>
-  <thead>
-    <tr>
-      <th>–</th>
-      <th>Date</th>
-      <th>Speaker</th>
-      <th>Topic</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>–</td>
-      <td>Week 0</td>
-      <td>TBD</td>
-      <td>Organizational Meeting</td>
-    </tr>
-  </tbody>
-</table>
+<p>[In Progress]
+<!-- 
+| Date | Speaker | Topic |
+| ---- | ------- | ----- |
+| Week 0 | TBD | Organizational Meeting | --></p>
 
 <p><b>Resources:</b></p>
 
@@ -152,6 +137,7 @@
 <ul>
   <li><a href="https://people.math.rochester.edu/faculty/doug/mybooks/nilpb2020.pdf">Nilpotence and Periodicity in Stable Homotopy Theory</a> by Ravenal</li>
   <li><a href="https://people.math.harvard.edu/~lurie/252x.html">Math 252x Lecture Notes</a> by Lurie.</li>
+  <li><a href="https://people.math.harvard.edu/~piotr/252y_notes.pdf">Math 252y Lecture Notes</a> by Pstragowski.</li>
   <li><a href="https://people.math.rochester.edu/faculty/doug/mybooks/ravenel.pdf">Complex Cobordism and Stable Homotopy Groups of Spheres</a> by Ravenal.</li>
   <li><a href="https://people.math.rochester.edu/faculty/doug/otherpapers/coctalos.pdf">Complex Oriented Cohomology Theories and the Language of Stacks</a> by Hopkins.</li>
 </ul>
@@ -184,7 +170,7 @@
         </p> -->
         <ul class="contact-list">
           <li class="p-name">Chroma 2022</li>
-          <li class="p-name"><a class="page-link" href="">Join our Discord!</a></li>
+          <li class="p-name"><a class="page-link" href="https://join.slack.com/t/chroma2022/shared_invite/zt-16h53w1s7-FAJOGlB7EeplSvJ7SRZAUw">Join our Slack!</a></li>
           <!-- <li><a class="u-email" href="mailto:rushil_mallarapu@college.harvard.edu">rushil_mallarapu@college.harvard.edu</a></li> -->
         </ul>
       </div>
