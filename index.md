@@ -42,7 +42,7 @@ To fix this, what we want is a new _category_, $$\mathbf{SHC}$$, called the "sta
 
 A good source of examples of spectra is _suspension spectra_, where we start with a space $$X$$, set $$E_n=\Sigma^n X$$, and make the structure maps the identity. Applying this to the 0-sphere, we get the sphere spectrum $$\mathbb{S}$$, the homotopy groups of which (in the stable category) are the stable homotopy groups of the spheres. Another good source of examples are _generalized cohomology theories_ — a result called Brown Representability says that given any spectra $$E$$, the axioms of a spectra are *exactly* what we need for the functor $$E^n(X) = [Y,E_n]$$ to be a generalized cohomology theory; i.e. a functor from $$\text{ho}\mathbf{Spaces}$$ to $$\textbf{Ab}$$ satisfying the Eilenberg-Steenrod axioms (if this reminds you of Eilenberg-Mac Lane spaces, you'll be delighted to know that the sequence $$K(A,0),K(A,1),K(A,2),\ldots $$ forms a spectrum called $$HA$$, which represents ordinary cohomology with $$A$$ coefficients).
 
-Historically, much of the formalism of stable homotopy and spectra arose when Frank Adams was working on the Hopf invariant one problem, but there are echos of this idea throughout classical homotopy theory, such as via the Freudenthal suspension theorem or the aforementioned connection between spectra and generalized cohomology theories. On the other hand, modern perspectives on spectra — which are often phrased in the language of $$\infty$$-categories — treat spectra as the final step in the effort to make working in $$\text{ho}\mathbf{Spaces}$$ more like doing algebra, and approach stable homotopy theory from the lens of "homotopy-theoretic algebra." Our goal for Chroma is to take a middle ground — we'll start by defining the stable category and understanding just what makes it such a nice place to do homotopy theory, and then apply this background to understanding some classical results, i.e. the nilpotence theorem.
+Historically, much of the formalism of stable homotopy and spectra arose when Frank Adams was working on the Hopf invariant one problem, but there are echos of this idea throughout classical homotopy theory, such as via the Freudenthal suspension theorem or the aforementioned connection between spectra and generalized cohomology theories. On the other hand, modern perspectives on spectra — which are often phrased in the language of $$\infty$$-categories — treat spectra as the final step in the effort to make working in $$\text{ho}\mathbf{Spaces}$$ more like doing algebra, and approach stable homotopy theory from the lens of "homotopy-theoretic algebra." Our goal for Chroma is to take a middle ground — we'll start by defining the stable category and understanding just what makes it such a nice place to do homotopy theory, and then apply this background to understanding some classical results, such as the nilpotence theorem.
 
 <b>What is "Chromatic Homotopy Theory"?</b>?
 
@@ -50,16 +50,23 @@ Historically, much of the formalism of stable homotopy and spectra arose when Fr
 
 <b>Schedule:</b>
 
-\[In Progress\]
-<!-- 
-| Date | Speaker | Topic |
-| ---- | ------- | ----- |
-| Week 0 | TBD | Organizational Meeting | -->
+| Date | Speaker | Topic | References |
+| ---- | ------- | ----- | ---------- |
+| Week 0 | | Organizational Meeting | |
+| Week 1 | TBD | Outline & Main Results <br /> Intro to Spectra | Orange Book Ch. 1 <br /> Barnes-Roitzheim Ch. 1 |
+| Week 2 | TBD | Model Categories <br /> Categories of Spectra | Barnes-Roitzheim Ch. 2,5 |
+| Week 3 | TBD | Triangulated Structure of $$\mathbf{SHC}$$ | Barnes-Roitzheim Ch. 3,4 |
+| Week 4 | TBD | Morava $$K$$-theory <br /> Chromatic Filtration | Ravenel Ch. 1,2 |
+| Week 5 | TBD | Formal Group Laws <br /> Morava Stabilizer Groups | Ravenel Ch. 3,4 |
+| Week 6 | TBD | Bousfield Localization | Barnes-Roitzheim Ch. 7 <br /> Ravenel Ch. 7 |
+| Week 7 | TBD | The Periodicity Theorem <br /> Chromatic Convergence | Ravenel Ch. 6,8 | 
+| Week 8 | TBD | Proof of the Nilpotence Theorem | Ravenel Ch. 8,9 | 
+| Week 9 | TBD | Adams Spectral Sequence | TBD |
+| Week 10 | TBD | Stable $$\infty$$-Categories <br /> Glimpse of Higher Algebra | (Groth/Gepner?) |
 
 <b>Resources:</b>
 
 A collection of some books, papers, and reference material.
-
 
 Intros:
 * [Algebraic Topology](https://pi.math.cornell.edu/~hatcher/AT/AT.pdf) by Hatcher.
@@ -97,10 +104,10 @@ Spectra and Stable Homotopy Theory:
 * [The Localization of Spectra with respect to Homology](https://www.sciencedirect.com/science/article/pii/0040938379900181) by Bousfield.
 
 Chromatic Homotopy Theory:
-* [Nilpotence and Periodicity in Stable Homotopy Theory](https://people.math.rochester.edu/faculty/doug/mybooks/nilpb2020.pdf) by Ravenal
+* [(Orange Book) Nilpotence and Periodicity in Stable Homotopy Theory](https://people.math.rochester.edu/faculty/doug/mybooks/nilpb2020.pdf) by Ravenel
 * [Math 252x Lecture Notes](https://people.math.harvard.edu/~lurie/252x.html) by Lurie.
 * [Math 252y Lecture Notes](https://people.math.harvard.edu/~piotr/252y_notes.pdf) by Pstragowski.
-* [Complex Cobordism and Stable Homotopy Groups of Spheres](https://people.math.rochester.edu/faculty/doug/mybooks/ravenel.pdf) by Ravenal.
+* [Complex Cobordism and Stable Homotopy Groups of Spheres](https://people.math.rochester.edu/faculty/doug/mybooks/ravenel.pdf) by Ravenel.
 * [Complex Oriented Cohomology Theories and the Language of Stacks](https://people.math.rochester.edu/faculty/doug/otherpapers/coctalos.pdf) by Hopkins.
 
 
