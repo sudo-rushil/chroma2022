@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+order: 1
 ---
 <script type="text/javascript"
 src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
@@ -52,13 +53,13 @@ Historically, much of the formalism of stable homotopy and spectra arose when Fr
 
 | Date | Speaker | Topic | References |
 | ---- | ------- | ----- | ---------- |
-| Week 0 | | Organizational Meeting | |
-| Week 1 | TBD | Outline & Main Results <br /> Intro to Spectra | Orange Book Ch. 1 <br /> Barnes-Roitzheim Ch. 1 |
-| Week 2 | TBD | Model Categories <br /> Categories of Spectra | Barnes-Roitzheim Ch. 2,5 |
-| Week 3 | TBD | Triangulated Structure of $$\mathbf{SHC}$$ | Barnes-Roitzheim Ch. 3,4 |
-| Week 4 | TBD | Morava $$K$$-theory <br /> Chromatic Filtration | Ravenel Ch. 1,2 |
-| Week 5 | TBD | Formal Group Laws <br /> Morava Stabilizer Groups | Ravenel Ch. 3,4 |
-| Week 6 | TBD | Bousfield Localization | Barnes-Roitzheim Ch. 7 <br /> Ravenel Ch. 7 |
+| May 27th | | Organizational Meeting | |
+| June 2nd | Dora Woodruff | Outline & Main Results <br /> Intro to Spectra | Orange Book Ch. 1 <br /> Barnes-Roitzheim Ch. 1 |
+| June 9th | Keita Allen | Categories of Spectra <br /> Monoidal Structures | Barnes-Roitzheim Ch. 2,5,6 |
+| June 16th | Jonathan Buchanan | Vector Bundles, Thom spaces <br /> Thom Isomorphism Theorem | Miller Ch. 6,8 |
+| June 23rd | Merrick Cai | Bousfield Localization | Barnes-Roitzheim Ch. 7 <br /> Ravenel Ch. 7 |
+| Week 5 | TBD | Morava $$K$$-theory <br /> Chromatic Filtration | Ravenel Ch. 1,2 |
+| Week 6 | TBD | Formal Group Laws <br /> Morava Stabilizer Groups | Ravenel Ch. 3,4 |
 | Week 7 | TBD | The Periodicity Theorem <br /> Chromatic Convergence | Ravenel Ch. 6,8 | 
 | Week 8 | TBD | Proof of the Nilpotence Theorem | Ravenel Ch. 8,9 | 
 | Week 9 | TBD | Adams Spectral Sequence | TBD |
