@@ -45,10 +45,6 @@ A good source of examples of spectra is _suspension spectra_, where we start wit
 
 Historically, much of the formalism of stable homotopy and spectra arose when Frank Adams was working on the Hopf invariant one problem, but there are echos of this idea throughout classical homotopy theory, such as via the Freudenthal suspension theorem or the aforementioned connection between spectra and generalized cohomology theories. On the other hand, modern perspectives on spectra — which are often phrased in the language of $$\infty$$-categories — treat spectra as the final step in the effort to make working in $$\text{ho}\mathbf{Spaces}$$ more like doing algebra, and approach stable homotopy theory from the lens of "homotopy-theoretic algebra." Our goal for Chroma is to take a middle ground — we'll start by defining the stable category and understanding just what makes it such a nice place to do homotopy theory, and then apply this background to understanding some classical results, such as the nilpotence theorem.
 
-<b>What is "Chromatic Homotopy Theory"?</b>?
-
-\[In Progress — I'll add more!\]
-
 <b>Schedule:</b>
 
 | Date | Speaker | Topic | References |
@@ -58,11 +54,11 @@ Historically, much of the formalism of stable homotopy and spectra arose when Fr
 | June 9th | Keita Allen | Categories of Spectra <br /> Monoidal Structures | Barnes-Roitzheim Ch. 2,5,6 |
 | June 16th | Jonathan Buchanan | Vector Bundles, Thom spaces <br /> Thom Isomorphism Theorem | Miller Ch. 6,8 |
 | June 23rd | Merrick Cai | Bousfield Localization | Barnes-Roitzheim Ch. 7 <br /> Ravenel Ch. 7 |
-| Week 5 | TBD | Morava $$K$$-theory <br /> Chromatic Filtration | Ravenel Ch. 1,2 |
-| Week 6 | TBD | Formal Group Laws <br /> Morava Stabilizer Groups | Ravenel Ch. 3,4 |
+| Week 5 | Kenta Suzuki | Steenrod Algebra, <br /> Adams Spectral Sequence | Barnes-Roitzheim Ch. 2.5-2.6 |
+| Week 6 | Charley Hutchinson | Formal Group Laws <br /> Morava Stabilizer Groups | Ravenel Ch. 3,4 |
 | Week 7 | TBD | The Periodicity Theorem <br /> Chromatic Convergence | Ravenel Ch. 6,8 | 
-| Week 8 | TBD | Proof of the Nilpotence Theorem | Ravenel Ch. 8,9 | 
-| Week 9 | TBD | Adams Spectral Sequence | TBD |
+| Week 8 | TBD | Proof of the Nilpotence Theorem I | Ravenel Ch. 8,9 | 
+| Week 9 | TBD | Proof of the Nilpotence Theorem II | Ravenel Ch. 8,9 |
 | Week 10 | TBD | Stable $$\infty$$-Categories <br /> Glimpse of Higher Algebra | (Groth/Gepner?) |
 
 <b>Resources:</b>
