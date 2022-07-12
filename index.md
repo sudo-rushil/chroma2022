@@ -52,13 +52,13 @@ Historically, much of the formalism of stable homotopy and spectra arose when Fr
 | May 27th | | Organizational Meeting | |
 | June 2nd | Dora Woodruff | Outline & Main Results <br /> Intro to Spectra | Orange Book Ch. 1 <br /> Barnes-Roitzheim Ch. 1 |
 | June 9th | Keita Allen | Categories of Spectra <br /> Monoidal Structures | Barnes-Roitzheim Ch. 2,5,6 |
-| June 16th | Jonathan Buchanan | Vector Bundles, Thom spaces <br /> Thom Isomorphism Theorem | Miller Ch. 6,8 |
+| June 16th | Jonathan Buchanan | Bundles, Thom spaces <br /> Thom Isomorphism Theorem | Miller Ch. 6,8 |
 | June 23rd | Merrick Cai | Bousfield Localization | Barnes-Roitzheim Ch. 7 <br /> Ravenel Ch. 7 |
 | Week 5 | Kenta Suzuki | Steenrod Algebra, <br /> Adams Spectral Sequence | Barnes-Roitzheim Ch. 2.5-2.6 |
-| Week 6 | Charley Hutchinson | Formal Group Laws <br /> Morava Stabilizer Groups | Ravenel Ch. 3,4 |
-| Week 7 | TBD | The Periodicity Theorem <br /> Chromatic Convergence | Ravenel Ch. 6,8 | 
-| Week 8 | TBD | Proof of the Nilpotence Theorem I | Ravenel Ch. 8,9 | 
-| Week 9 | TBD | Proof of the Nilpotence Theorem II | Ravenel Ch. 8,9 |
+| Week 6 | Charley Hutchinson | Formal Group Laws, <br /> Complex Orientations | Ravenel Ch. 3,4 |
+| Week 7 | Rushil Mallarapu | The Ravenel Conjectures, <br /> Chromatic Filtration | Ravenel '84 | 
+| Week 8 | TBD | Proof of the Nilpotence Theorem | Devinatz-Hopkins-Smith | 
+| Week 9 | TBD | Stacks in Homotopy Theory | (Goerss) |
 | Week 10 | TBD | Stable $$\infty$$-Categories <br /> Glimpse of Higher Algebra | (Groth/Gepner?) |
 
 <b>Resources:</b>
