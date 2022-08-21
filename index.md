@@ -17,11 +17,12 @@ Chroma is a joint Harvard-MIT summer seminar primarily focused at undergraduates
 
 This summer, subject to the interests of the participants, we will try to define the stable homotopy category, understand its desirable properties for computational and abstract homotopy theory, and present some results from chromatic homotopy theory. Roughly, we will follow Ravenal's [Nilpotence and Periodicity in Stable Homotopy Theory](https://people.math.rochester.edu/faculty/doug/mybooks/nilpb2020.pdf), but will spend some time reviewing preliminaries to this book. The goal is to develop an intuituion and appreciation for the machinery of stable homotopy theory without getting bogged down by technicalities and computation.
 
-Ideally, familiarity with algebraic topology at the level of Hatcher chapters 1-4 (_sans_ the additional sections) will be helpful, but everyone is welcome to participate!
+<!-- Ideally, familiarity with algebraic topology at the level of Hatcher chapters 1-4 (_sans_ the additional sections) will be helpful, but everyone is welcome to participate! -->
 
-Tentatively, we will meet once a week on Zoom from early June to late August. Each meeting will consist of a talk given by one of the participants, followed by a question/discussion session. As we're in the early stages of organizing, the dates and times will be shifted to be accomodating of everyone!
+<!-- We will meet once a week on Zoom from early June to mid August. Each meeting will consist of a talk given by one of the participants, followed by a question/discussion session.  -->
+<span style="color:blue">The seminar is now over, but you can see the [<u>talks page</u>](talks.html) for abstracts and slides! We may be coming back in 2023, so stay tuned!</span>
 
-<b>What is "Stable Homotopy Theory"?</b> (10 minute version)
+<b>What is "Stable Homotopy Theory"?</b>
 
 The main objects of study in classical algebraic topology are (sufficiently nice, e.g. CW) spaces. The general perspective is that while understanding a space (say, up to homeomorphism) is too hard in general, we _can_ attempt to look at spaces up to homotopy equivalence, which really means going from trying to understand the space $$\text{Maps}(X,Y)$$ to considering homotopy classes of maps, denoted by $$[X,Y]$$ (these are equivalent by the Yoneda lemma).
 
@@ -57,9 +58,7 @@ Historically, much of the formalism of stable homotopy and spectra arose when Fr
 | Week 5 | Kenta Suzuki | Steenrod Algebra, <br /> Adams Spectral Sequence | Barnes-Roitzheim Ch. 2.5-2.6 |
 | Week 6 | Charley Hutchinson | Formal Group Laws, <br /> Complex Orientations | Ravenel Ch. 3,4 |
 | Week 7 | Rushil Mallarapu | The Ravenel Conjectures, <br /> Chromatic Filtration | Ravenel '84 | 
-| Week 8 | TBD | Proof of the Nilpotence Theorem | Devinatz-Hopkins-Smith | 
-| Week 9 | TBD | Stacks in Homotopy Theory | (Goerss) |
-| Week 10 | TBD | Stable $$\infty$$-Categories <br /> Glimpse of Higher Algebra | (Groth/Gepner?) |
+| Week 8 | Rushil Mallarapu | Proof of the Nilpotence Theorem | Devinatz-Hopkins-Smith '88' |
 
 <b>Resources:</b>
 
