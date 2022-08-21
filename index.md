@@ -13,14 +13,16 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLor
 
 <b>Overview:</b>
 
-Chroma is a joint Harvard-MIT summer seminar primarily focused at undergraduates interested in algebraic topology and homotopy theory. If you're an undergraduate or graduate student and are interested in these subjects, fill out the <b>[interest form](interest.html)</b> in the top-right!
+Chroma is a joint Harvard-MIT summer seminar primarily focused at undergraduates interested in algebraic topology and homotopy theory. <span style="color:blue">The seminar is now over, but you can see the [<u>talks page</u>](talks.html) for abstracts and slides! We may be coming back in 2023, so stay tuned!</span>
 
-This summer, subject to the interests of the participants, we will try to define the stable homotopy category, understand its desirable properties for computational and abstract homotopy theory, and present some results from chromatic homotopy theory. Roughly, we will follow Ravenal's [Nilpotence and Periodicity in Stable Homotopy Theory](https://people.math.rochester.edu/faculty/doug/mybooks/nilpb2020.pdf), but will spend some time reviewing preliminaries to this book. The goal is to develop an intuituion and appreciation for the machinery of stable homotopy theory without getting bogged down by technicalities and computation.
+<!-- If you're an undergraduate or graduate student and are interested in these subjects, fill out the <b>[interest form](interest.html)</b> in the top-right! -->
+
+This summer, we will try to define the stable homotopy category, understand its desirable properties for computational and abstract homotopy theory, and present some results from chromatic homotopy theory. Roughly, we will follow Ravenal's [Nilpotence and Periodicity in Stable Homotopy Theory](https://people.math.rochester.edu/faculty/doug/mybooks/nilpb2020.pdf), but will spend some time reviewing preliminaries to this book. The goal is to develop an intuituion and appreciation for the machinery of stable homotopy theory without getting bogged down by technicalities and computation.
 
 <!-- Ideally, familiarity with algebraic topology at the level of Hatcher chapters 1-4 (_sans_ the additional sections) will be helpful, but everyone is welcome to participate! -->
 
 <!-- We will meet once a week on Zoom from early June to mid August. Each meeting will consist of a talk given by one of the participants, followed by a question/discussion session.  -->
-<span style="color:blue">The seminar is now over, but you can see the [<u>talks page</u>](talks.html) for abstracts and slides! We may be coming back in 2023, so stay tuned!</span>
+
 
 <b>What is "Stable Homotopy Theory"?</b>
 
